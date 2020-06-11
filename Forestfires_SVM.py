@@ -69,4 +69,4 @@ model_rbf = SVC(kernel = "sigmoid")
 model_rbf.fit(train_X,train_y)
 pred_test_rbf = model_rbf.predict(test_X)
 
-np.mean(pred_test_rbf==test_y)#Accuracy=78.84
+np.mean(pred_test_rbf==test_y)#Accuracy=90.84
